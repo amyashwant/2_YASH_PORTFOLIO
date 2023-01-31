@@ -1,3 +1,6 @@
+
+
+
 import Navbar from "./scenes/Navbar";
 import { useEffect, useState } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";

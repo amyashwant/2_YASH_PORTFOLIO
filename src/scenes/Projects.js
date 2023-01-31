@@ -25,8 +25,17 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {title === "Office Aid" &&
+            "•Users can sign up and sign in using Firebase Authentication.•We can store our data in Firebase Database and store images using Firebase Storage and Firebase Realtime Database.•This site can be used as an admin site with responsiveness."}
+
+          {title === "Dating Book" &&
+            "•Created a web app similar to Instagram having features such as login, writing posts, comments, reactions, and profile search.•Boys and girls can chat with each other in a safe anonymous environment. Used WebSocket hooks.•Integrated messaging app features like live chatting, image sharing, and emoji reactions.•Integrated backend and frontend using APIs and used database MongoDB Atlas."}
+
+          {title === "Project 3" &&
+            "•(mern stack)•Online web platform where you can create, edit, upload, and delete your notes/information privately and securely without any disturbances.•Usage of ReactJS,Javascript,CSS, HTML,Bootstrap, MERN Stack."}
+
+          {title === "Project 4" &&
+            "•Users can browse the latest news articles and videos through various categories like business, health,entertainment, general, sports, and technology.•Usage of ReactJS, Javascript, CSS, HTML, Bootstrap, and Backend APIs like news APIs."}
         </p>
       </div>
       <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
@@ -58,9 +67,10 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          My job is to build your website so that it is functional and
+          user-friendly but at the same time attractive. Moreover, I add
+          personal touch to your product and make sure that is eye-catching and
+          easy to use.
         </p>
       </motion.div>
 
@@ -78,10 +88,10 @@ const Projects = () => {
             className="flex justify-center text-center items-center p-10 bg-red
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
           >
-            BEAUTIFUL USER INTERFACES
+            GOOD REAL-WORLD PROJECTS 
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="Office Aid" />
+          <Project title="Dating Book" />
 
           {/* ROW 2 */}
           <Project title="Project 3" />
