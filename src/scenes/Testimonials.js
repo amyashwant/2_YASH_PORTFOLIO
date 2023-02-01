@@ -27,7 +27,7 @@ const Testimonials = () => {
       <div className="md:flex md:justify-between gap-8 ">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
+            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1  "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -37,18 +37,20 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-center text-1.5xl">
-            SAGAR SAINI
-            <a href="https://www.linkedin.com/in/sagar-saini-0785561b6/">
-              {" (Linkedin Profile)🔗 "}
-            </a>
-          </p>
-          <p className="font-playfair text-center text-1xl">(SDE at TCS)</p>
+          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
+            <p className="font-playfair text-center text-1.5xl ">
+              SAGAR SAINI
+              <a href="https://www.linkedin.com/in/sagar-saini-0785561b6/">
+                {" (Linkedin Profile)🔗 "}
+              </a>
+            </p>
+            <p className="font-playfair text-center text-1xl">(SDE at TCS)</p>
 
-          <p className="text-center text-xl">
-            "Always having fun to work on a WEBSITE project. Keen and
-            enthusiastic for learning new skills."
-          </p>
+            <p className="text-center text-xl">
+              "Always having fun to work on a WEBSITE project. Keen and
+              enthusiastic for learning new skills."
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -63,22 +65,24 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-center text-1.5xl uppercase">
-            Kumar Raushan Parag
-          </p>
-          <p className="font-playfair text-center text-1xl">
-            (SDE at SCHNEIDER ELECTRIC)
-          </p>
-          <a
-            className="font-playfair text-center text-1xl ml-5"
-            href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
-          >
-            {"Linkedin Profile🔗 "}
-          </a>
-          <p className="text-center text-xl">
-            "Passionate at solving the issues and enjoying during the whole
-            process."
-          </p>
+          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
+            <p className="font-playfair text-center text-1.5xl uppercase">
+              Kumar Raushan Parag
+            </p>
+            <p className="font-playfair text-center text-1xl">
+              (SDE at SCHNEIDER ELECTRIC)
+            </p>
+            <a
+              className="font-playfair text-center text-1xl ml-16 "
+              href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
+            >
+              {"Linkedin Profile🔗 "}
+            </a>
+            <p className="text-center text-xl">
+              "Passionate at solving the issues and enjoying during the whole
+              process."
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -93,20 +97,23 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-center text-1.5xl ">
-            HARSH(SDE at TATA ELXSI )
-          </p>
-          <p className="font-playfair text-center text-1xl">
-          
-          </p>
+          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
+            <p className="font-playfair text-center text-1.5xl ">
+              HARSH CHAUDHARY
+            </p>
+            <p className="font-playfair text-center text-1xl">(SDE at TATA ELXSI )</p>
 
-          <a className="font-playfair text-center text-1xl ml-5" href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/">
-            {"Linkedin Profile🔗 "}
-          </a>
-          <p className="text-center text-xl">
-           " Having a good content Planning Strategy. Good at figuring out new
-            real world projects."
-          </p>
+            <a
+              className="font-playfair text-center text-1xl ml-16"
+              href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/"
+            >
+              {"Linkedin Profile🔗 "}
+            </a>
+            <p className="text-center text-xl">
+              " Having a good content Planning Strategy. Good at figuring out
+              new real world projects."
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>

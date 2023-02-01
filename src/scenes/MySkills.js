@@ -25,27 +25,28 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           <div className="mt-10 mb-7 ">
             <div
-              className="transition ease-in-out delay-150 hover:hover:text-green-200 hover:-translate-y-1 hover:scale-110 duration-300 
+              className="transition ease-in-out delay-150 hover:hover:text-green-200 hover:-translate-y-1   duration-300 
             "
             >
               <div
                 className="font-bold
-              uppercase "
+              uppercase text-green-300"
               >
                 Computer Languages
               </div>
               <span>Javasript, c, c++, HTML, CSS</span>
             </div>
-            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1 hover:scale-110 duration-300  ">
-              <div className="font-bold uppercase">Software Packages</div>
+            
+            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1 duration-300  ">
+              <div className="font-bold uppercase text-green-300">Software Packages</div>
               <span>MongoDB, NodeJS, ExpressJS, ReactJS, Redux</span>
             </div>
-            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1 hover:scale-110 duration-300  ">
-              <div className="font-bold uppercase">CI/CD</div>
+            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1  duration-300  ">
+              <div className="font-bold uppercase text-green-300">CI/CD</div>
               <span>Git, Github</span>
             </div>
-            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1 hover:scale-110 duration-300  ">
-              <div className="font-bold uppercase">Additional Courses</div>
+            <div className="transition ease-in-out delay-150 hover:hover:text-green-200  hover:-translate-y-1  duration-300  ">
+              <div className="font-bold uppercase text-green-300">Additional Courses</div>
               <span>
                 Fundamentals of Data Structures and Algorithms, Fundamentals of
                 Object-Oriented Programming
@@ -95,7 +96,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <div className="mt-5 scale-110">
+          <div className="mt-5 ">
             <div className="transition ease-in-out delay-150 hover:hover:text-rose-300  hover:-translate-y-1  duration-300  ">
               <div className="font-bold uppercase">Project Intern</div>
               <span>@ Network Centre, SMVDU</span>
