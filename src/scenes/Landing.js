@@ -19,7 +19,7 @@ const Landing = ({ setSelectedPage }) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:saturate-150 hover:rounded-3xl transition duration-500 z-10 w-full max-w-[400px] md:max-w-[300px] rounded-t-full shadow-lg shadow-indigo-500/50"
+              className="hover:filter hover:saturate-150 hover:rounded-3xl transition duration-500 z-10 w-full max-w-[400px] md:max-w-[400px] rounded-t-full shadow-lg shadow-indigo-500/50"
               src="assets/profile-image2.jpg"
             />
           </div>

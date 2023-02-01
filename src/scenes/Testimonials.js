@@ -17,17 +17,14 @@ const Testimonials = () => {
         }}
       >
         <p className="font-playfair font-semibold text-4xl mb-5 text-red">
-          TESTIMONIALS
+          TESTIMONIALS (Endorsements)
         </p>
         <LineGradient width="mx-auto w-2/5" />
-        <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
-        </p>
+        <p className="mt-10">Here's What People are Saying About My Work.</p>
       </motion.div>
-
+      {/* w-8 h-8  object-cover cursor-pointer rounded-3xl*/}
       {/* TESTIMONIALS */}
-      <div className="md:flex md:justify-between gap-8">
+      <div className="md:flex md:justify-between gap-8 ">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1"
@@ -40,9 +37,17 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="font-playfair text-center text-1.5xl">
+            SAGAR SAINI
+            <a href="https://www.linkedin.com/in/sagar-saini-0785561b6/">
+              {" (Linkedin Profile)🔗 "}
+            </a>
+          </p>
+          <p className="font-playfair text-center text-1xl">(SDE at TCS)</p>
+
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+            "Always having fun to work on a WEBSITE project. Keen and
+            enthusiastic for learning new skills."
           </p>
         </motion.div>
 
@@ -58,15 +63,26 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="font-playfair text-center text-1.5xl uppercase">
+            Kumar Raushan Parag
+          </p>
+          <p className="font-playfair text-center text-1xl">
+            (SDE at SCHNEIDER ELECTRIC)
+          </p>
+          <a
+            className="font-playfair text-center text-1xl ml-5"
+            href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
+          >
+            {"Linkedin Profile🔗 "}
+          </a>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+            "Passionate at solving the issues and enjoying during the whole
+            process."
           </p>
         </motion.div>
 
         <motion.div
-          className="mx-auto relative bg-yellow max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
+          className="mx-auto relative bg-green-900 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
@@ -77,9 +93,19 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <p className="font-playfair text-6xl">“</p>
+          <p className="font-playfair text-center text-1.5xl ">
+            HARSH(SDE at TATA ELXSI )
+          </p>
+          <p className="font-playfair text-center text-1xl">
+          
+          </p>
+
+          <a className="font-playfair text-center text-1xl ml-5" href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/">
+            {"Linkedin Profile🔗 "}
+          </a>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+           " Having a good content Planning Strategy. Good at figuring out new
+            real world projects."
           </p>
         </motion.div>
       </div>

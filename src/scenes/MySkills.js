@@ -23,7 +23,7 @@ const MySkills = () => {
             MY <span className="text-red">SKILLS</span>
           </p>
           <LineGradient width="w-1/3" />
-          <p className="mt-10 mb-7 ">
+          <div className="mt-10 mb-7 ">
             <div
               className="transition ease-in-out delay-150 hover:hover:text-green-200 hover:-translate-y-1 hover:scale-110 duration-300 
             "
@@ -51,7 +51,7 @@ const MySkills = () => {
                 Object-Oriented Programming
               </span>
             </div>
-          </p>
+          </div>
         </motion.div>
 
         <div className="mt-16 md:mt-0">
@@ -95,13 +95,13 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5 scale-110">
+          <div className="mt-5 scale-110">
             <div className="transition ease-in-out delay-150 hover:hover:text-rose-300  hover:-translate-y-1  duration-300  ">
               <div className="font-bold uppercase">Project Intern</div>
               <span>@ Network Centre, SMVDU</span>
               <div> Improved existing website of SMVDU (smvdu.ac.in)</div>
             </div>
-          </p>
+          </div>
         </motion.div>
 
         {/* INNOVATIVE */}
@@ -125,14 +125,14 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <div className="mt-5">
             <div className="transition ease-in-out delay-150 hover:hover:text-rose-300  hover:-translate-y-1  duration-300  ">
               <span>Excellent problem-solving skills.</span>
               <div> A logical approach to work.</div>
               <span>The ability to explain technical matters clearly.</span>
               <div> Continously learning new skills like NextJs.</div>
             </div>
-          </p>
+          </div>
         </motion.div>
         {/* IMAGINATIVE */}
         <motion.div
@@ -155,7 +155,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5">
+          <div className="mt-5">
             <div className="transition ease-in-out delay-150 hover:hover:text-rose-300  hover:-translate-y-1  duration-300  ">
               <div>Completed many MERN stack's projects.</div>
               <div>
@@ -163,7 +163,7 @@ const MySkills = () => {
                 life.
               </div>
             </div>
-          </p>
+          </div>
         </motion.div>
       </div>
     </section>
