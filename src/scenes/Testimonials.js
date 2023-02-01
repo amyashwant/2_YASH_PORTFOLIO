@@ -27,7 +27,7 @@ const Testimonials = () => {
       <div className="md:flex md:justify-between gap-8 ">
         <motion.div
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person1  "
+            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person1  "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -37,16 +37,16 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
-            <p className="font-playfair text-center text-1.5xl ">
+          <div style={{ border: "", marginBottom: "-3.7rem" }}>
+            <p className="font-playfair text-center ">
               SAGAR SAINI
               <a href="https://www.linkedin.com/in/sagar-saini-0785561b6/">
-                {" (Linkedin Profile)🔗 "}
+                {" (Linkedin)🔗 "}
               </a>
             </p>
             <p className="font-playfair text-center text-1xl">(SDE at TCS)</p>
 
-            <p className="text-center text-xl">
+            <p className="text-center ">
               "Always having fun to work on a WEBSITE project. Keen and
               enthusiastic for learning new skills."
             </p>
@@ -55,7 +55,7 @@ const Testimonials = () => {
 
         <motion.div
           className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person2"
+            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -65,20 +65,19 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
-            <p className="font-playfair text-center text-1.5xl uppercase">
-              Kumar Raushan Parag
-            </p>
+          <div style={{ border: "", marginBottom: "-3rem" }}>
+            <p className="font-playfair text-center ">Kumar Raushan Parag</p>
             <p className="font-playfair text-center text-1xl">
               (SDE at SCHNEIDER ELECTRIC)
             </p>
             <a
-              className="font-playfair text-center text-1xl ml-16 "
+              className="font-playfair   "
+              style={{ marginLeft: "3rem", marginRight: "2.2rem" }}
               href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
             >
-              {"Linkedin Profile🔗 "}
+              {"Linkedin🔗 "}
             </a>
-            <p className="text-center text-xl">
+            <p className="text-center ">
               "Passionate at solving the issues and enjoying during the whole
               process."
             </p>
@@ -87,7 +86,7 @@ const Testimonials = () => {
 
         <motion.div
           className="mx-auto relative bg-green-900 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-120px] before:-ml-[110px] before:left-1/2 before:content-person3"
+            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -97,19 +96,20 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "2px solid blue", marginBottom: "-3.7rem" }}>
-            <p className="font-playfair text-center text-1.5xl ">
-              HARSH CHAUDHARY
+          <div style={{ border: "", marginBottom: "-3.7rem" }}>
+            <p className="font-playfair text-center ">HARSH CHAUDHARY</p>
+            <p className="font-playfair text-center text-1xl">
+              (SDE at TATA ELXSI )
             </p>
-            <p className="font-playfair text-center text-1xl">(SDE at TATA ELXSI )</p>
 
             <a
-              className="font-playfair text-center text-1xl ml-16"
+              className="font-playfair text-center "
+              style={{marginLeft:"3rem",marginRight:"4rem"}}
               href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/"
             >
-              {"Linkedin Profile🔗 "}
+              {"Linkedin 🔗 "}
             </a>
-            <p className="text-center text-xl">
+            <p className="text-center ">
               " Having a good content Planning Strategy. Good at figuring out
               new real world projects."
             </p>
