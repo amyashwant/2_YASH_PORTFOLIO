@@ -28,7 +28,7 @@ const Project = ({ title }) => {
           marginBottom: "2rem",
           marginLeft: "2rem",
           marginTop: "1rem",
-          marginRight: "0rem",
+          marginRight: "2rem",
         }}
       >
         {/* <div className="text-center" style={{marginTop:"0rem"}}>click Here</div> */}
