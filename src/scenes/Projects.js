@@ -186,7 +186,7 @@ const Project = ({ title }) => {
           <p
             style={{
               position: "absolute",
-              color: "black",
+              color: "#404040",
               fontWeight: "bold",
               top: "5 %",
               left: "50%",
@@ -199,11 +199,13 @@ const Project = ({ title }) => {
             }}
           >
             {title === "Morning Report" && "𝙍𝙚𝙥𝙤𝙧𝙩 𝙈𝙤𝙧𝙣𝙞𝙣𝙜"}
-            {title === "My Portfolio" && "𝙈𝙮 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤"}
+            {/* {title === "My Portfolio" && "𝙈𝙮 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤"} */}
             <p className="" style={{ marginBottom: "-2rem", fontSize: "150%" }}>
               {(title === "Office Aid" && "𝙊𝙛𝙞𝙞𝙘𝙚 𝘼𝙞𝙙") ||
                 (title === "Dating Book" && "𝘿𝙖𝙩𝙞𝙣𝙜 𝘼𝙞𝙙") ||
                 (title === "Angel Notes" && "𝘼𝙣𝙜𝙚𝙡 𝙉𝙤𝙩𝙚𝙨")}
+                {/* {title === "Morning Report" && "𝙍𝙚𝙥𝙤𝙧𝙩 𝙈𝙤𝙧𝙣𝙞𝙣𝙜"} */}
+            {title === "My Portfolio" && "𝙈𝙮 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤"}
             </p>
           </p>
           <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
