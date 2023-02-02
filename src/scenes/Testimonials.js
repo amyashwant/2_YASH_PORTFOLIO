@@ -26,7 +26,7 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8 ">
         <motion.div
-          style={{ border: "2px solid red" }}
+          style={{ border: "" }}
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
             before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-person1  "
           initial="hidden"
@@ -38,7 +38,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "2px solid green", marginTop: "3rem" }}>
+          <div style={{ border: "", marginTop: "3rem" }}>
             <p className=" text-center ">SAGAR SAINI</p>
             <p className=" text-center ">
               <a
@@ -70,7 +70,7 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "2px solid green", marginTop: "3rem" }}>
+          <div style={{ border: "", marginTop: "3rem" }}>
             <p className=" text-center ">Kumar Raushan Parag</p>
             <p className=" text-center ">(SDE at SCHNEIDER ELECTRIC)</p>
             <p className="  text-center ">

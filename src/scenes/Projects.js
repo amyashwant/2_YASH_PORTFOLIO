@@ -169,7 +169,7 @@ const Project = ({ title }) => {
               color: " #6AFF05",
               fontWeight: "bolder",
               fontSize:"0.5rem",
-              top: "50%",
+              top: "47%",
               left: "50%",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
@@ -177,7 +177,7 @@ const Project = ({ title }) => {
               borderRadius: "1rem",
               // border: "rounded",
               // borderColor: "yellow",
-              opacity: "0.6",
+              opacity: "0.8",
             }}
           >
             VIEW PROJECT
