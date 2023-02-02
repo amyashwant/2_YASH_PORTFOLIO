@@ -26,8 +26,9 @@ const Testimonials = () => {
       {/* TESTIMONIALS */}
       <div className="md:flex md:justify-between gap-8 ">
         <motion.div
+          style={{ border: "2px solid red" }}
           className="mx-auto relative bg-blue max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person1  "
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-person1  "
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -37,16 +38,20 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "", marginBottom: "-3.7rem" }}>
-            <p className="font-playfair text-center ">
-              SAGAR SAINI
-              <a href="https://www.linkedin.com/in/sagar-saini-0785561b6/">
+          <div style={{ border: "2px solid green", marginTop: "3rem" }}>
+            <p className=" text-center ">SAGAR SAINI</p>
+            <p className=" text-center ">
+              <a
+                className=" text-center "
+                href="https://www.linkedin.com/in/sagar-saini-0785561b6/"
+              >
                 {" (Linkedin)🔗 "}
               </a>
             </p>
-            <p className="font-playfair text-center text-1xl">(SDE at TCS)</p>
 
-            <p className="text-center ">
+            <p className=" text-center text-1xl">(SDE at TCS)</p>
+
+            <p className="text-center    ">
               "Always having fun to work on a WEBSITE project. Keen and
               enthusiastic for learning new skills."
             </p>
@@ -55,7 +60,7 @@ const Testimonials = () => {
 
         <motion.div
           className="mx-auto relative bg-red max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person2"
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-person2"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -65,18 +70,17 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "", marginBottom: "-3rem" }}>
-            <p className="font-playfair text-center ">Kumar Raushan Parag</p>
-            <p className="font-playfair text-center text-1xl">
-              (SDE at SCHNEIDER ELECTRIC)
+          <div style={{ border: "2px solid green", marginTop: "3rem" }}>
+            <p className=" text-center ">Kumar Raushan Parag</p>
+            <p className=" text-center ">(SDE at SCHNEIDER ELECTRIC)</p>
+            <p className="  text-center ">
+              <a
+                // style={{ marginLeft: "3rem", marginRight: "2.2rem" }}
+                href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
+              >
+                {"Linkedin🔗 "}
+              </a>
             </p>
-            <a
-              className="font-playfair   "
-              style={{ marginLeft: "3rem", marginRight: "2.2rem" }}
-              href="https://www.linkedin.com/in/kumar-raushan-1b40aa20b/"
-            >
-              {"Linkedin🔗 "}
-            </a>
             <p className="text-center ">
               "Passionate at solving the issues and enjoying during the whole
               process."
@@ -85,8 +89,13 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
+          // style={{
+          //   display: "flex",
+          //   alignItems: "center",
+          //   justifyContent: "center",
+          // }}
           className="mx-auto relative bg-green-900 max-w-[400px] h-[350px] flex flex-col justify-end p-16 mt-48
-            before:absolute before:top-[-160px] before:-ml-[110px] before:left-1/2 before:content-person3"
+            before:absolute before:top-[-180px] before:-ml-[110px] before:left-1/2 before:content-person3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -96,24 +105,49 @@ const Testimonials = () => {
             visible: { opacity: 1, scale: 1 },
           }}
         >
-          <div style={{ border: "", marginBottom: "-3.7rem" }}>
-            <p className="font-playfair text-center ">HARSH CHAUDHARY</p>
-            <p className="font-playfair text-center text-1xl">
-              (SDE at TATA ELXSI )
-            </p>
-
-            <a
-              className="font-playfair text-center "
-              style={{marginLeft:"3rem",marginRight:"4rem"}}
-              href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/"
+          {/* <div
+            style={{
+              border: "2px solid grey",
+              marginTop: "2rem",
+              marginLeft:"2rem",
+              marginRight:"2rem",
+              marginBottom:"2rem"
+            
+            }}
+          > */}
+            <div
+              // className="w-[350px]"
+              style={{
+                // border: "2px solid red",
+                marginTop: "3rem",
+                // marginLeft:"2rem",
+                // marginRight:"2rem",
+                // marginBottom:"2rem"
+                // display: "flex",
+                // alignItems: "center",
+                // justifyContent: "center",
+                //  margin:"auto"
+                // marginRight: "-50%",
+                // transform: "translate(-50%, -50%)",
+              }}
             >
-              {"Linkedin 🔗 "}
-            </a>
-            <p className="text-center ">
-              " Having a good content Planning Strategy. Good at figuring out
-              new real world projects."
-            </p>
-          </div>
+              <p className=" text-center ">HARSH CHAUDHARY</p>
+              <p className=" text-center ">(SDE at TATA ELXSI )</p>
+              <p className=" text-center ">
+                <a
+                  className="text-center "
+                  href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/"
+                >
+                  {"Linkedin 🔗 "}
+                </a>
+              </p>
+
+              <p className="text-center ">
+                " Having a good content Planning Strategy. Good at figuring out
+                new real world projects."
+              </p>
+            </div>
+          {/* </div> */}
         </motion.div>
       </div>
     </section>

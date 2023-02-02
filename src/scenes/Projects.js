@@ -1,5 +1,6 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
+import { hover } from "@testing-library/user-event/dist/hover";
 
 const container = {
   hidden: {},
@@ -39,7 +40,7 @@ const Project = ({ title }) => {
           style={{ border: "" }}
         >
           <div className={overlayStyles} style={{ border: "" }}>
-            <p
+            {/* <p
               className="text-2xl font-playfair"
               style={{ marginBottom: "-2rem" }}
             >
@@ -48,27 +49,27 @@ const Project = ({ title }) => {
                 (title === "Angel Notes" && "Ⓐⓝⓖⓔⓛ Ⓝⓞⓣⓔⓢ") ||
                 (title === "Morning Report" && "Ⓡⓔⓟⓞⓡⓣ Ⓜⓞⓡⓝⓘⓝⓖ") ||
                 (title === "My Portfolio" && "Ⓜⓨ Ⓟⓞⓡⓣⓕⓞⓛⓘⓞ")}
-            </p>
+            </p> */}
             <div
-              className="mt-7"
+              // className="mt-7"
               style={{
                 border: "",
                 // width: "15rem",
                 // height: "10rem",
+                marginTop: "0.1rem",
               }}
             >
               <div
-                className=""
+                className=" "
                 style={{
                   border: "",
-                  width: "15rem",
-                  height: "12rem",
+                  width: "11rem",
+                  height: "16rem",
                   overflowY: "scroll",
-                  scrollbarColor:"red ",
+                  scrollbarColor: "red ",
                   backgroundColor: "lightgrey",
-                  transform: "scale(1.5,1) translateY(10px)"
-                 
-                  
+                  transform: "scale(1.5,1) translateY(10px)",
+                  marginBottom: "1rem",
                 }}
               >
                 <p>
@@ -158,23 +159,55 @@ const Project = ({ title }) => {
               </div>
             </div>
           </div>
-          <h3
+
+          <p
             className="bg-gradient-rainbow"
             style={{
               position: "absolute",
+              // height:"1rem",
+              // width:"3rem",
               color: " #6AFF05",
+              fontWeight: "bolder",
+              fontSize:"0.5rem",
               top: "50%",
               left: "50%",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
               backgroundColor: "black",
               borderRadius: "1rem",
-              border: "rounded",
-              borderColor: "yellow",
+              // border: "rounded",
+              // borderColor: "yellow",
+              opacity: "0.6",
             }}
           >
-            CLICK TO OPEN PROJECT
-          </h3>
+            VIEW PROJECT
+          </p>
+
+          <p
+            style={{
+              position: "absolute",
+              color: "red",
+              fontWeight: "bold",
+              top: "50%",
+              left: "50%",
+              marginRight: "-50%",
+              transform: "translate(-50%, -50%)",
+              borderRadius: "1rem",
+              border: "rounded",
+              opacity: "1",
+            }}
+          >
+            
+            {title === "Morning Report" && "Ⓡⓔⓟⓞⓡⓣ Ⓜⓞⓡⓝⓘⓝⓖ"}
+
+            <p className="" style={{ marginBottom: "-2rem", fontSize: "150%" }}>
+              {(title === "Office Aid" && "Ⓞⓕⓕⓘⓒⓔ Ⓐⓘⓓ") ||
+                (title === "Dating Book" && "Ⓓⓐⓣⓘⓝⓖ Ⓑⓞⓞⓚ") ||
+                (title === "Angel Notes" && "Ⓐⓝⓖⓔⓛ Ⓝⓞⓣⓔⓢ") ||
+                (title === "My Portfolio" && "Ⓜⓨ Ⓟⓞⓡⓣⓕⓞⓛⓘⓞ")}
+            </p>
+
+          </p>
           <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
         </motion.div>
       </div>
