@@ -168,7 +168,7 @@ const Project = ({ title }) => {
               // width:"3rem",
               color: " #6AFF05",
               fontWeight: "bolder",
-              fontSize:"0.5rem",
+              fontSize: "0.5rem",
               top: "47%",
               left: "50%",
               marginRight: "-50%",
@@ -186,27 +186,25 @@ const Project = ({ title }) => {
           <p
             style={{
               position: "absolute",
-              color: "red",
+              color: "black",
               fontWeight: "bold",
-              top: "50%",
+              top: "5 %",
               left: "50%",
               marginRight: "-50%",
               transform: "translate(-50%, -50%)",
               borderRadius: "1rem",
               border: "rounded",
               opacity: "1",
+              // backgroundImage: "linear-gradient(to left, #553c9a, #b393d3)",
             }}
           >
-            
-            {title === "Morning Report" && "Ⓡⓔⓟⓞⓡⓣ Ⓜⓞⓡⓝⓘⓝⓖ"}
-
+            {title === "Morning Report" && "𝙍𝙚𝙥𝙤𝙧𝙩 𝙈𝙤𝙧𝙣𝙞𝙣𝙜"}
+            {title === "My Portfolio" && "𝙈𝙮 𝙋𝙤𝙧𝙩𝙛𝙤𝙡𝙞𝙤"}
             <p className="" style={{ marginBottom: "-2rem", fontSize: "150%" }}>
-              {(title === "Office Aid" && "Ⓞⓕⓕⓘⓒⓔ Ⓐⓘⓓ") ||
-                (title === "Dating Book" && "Ⓓⓐⓣⓘⓝⓖ Ⓑⓞⓞⓚ") ||
-                (title === "Angel Notes" && "Ⓐⓝⓖⓔⓛ Ⓝⓞⓣⓔⓢ") ||
-                (title === "My Portfolio" && "Ⓜⓨ Ⓟⓞⓡⓣⓕⓞⓛⓘⓞ")}
+              {(title === "Office Aid" && "𝙊𝙛𝙞𝙞𝙘𝙚 𝘼𝙞𝙙") ||
+                (title === "Dating Book" && "𝘿𝙖𝙩𝙞𝙣𝙜 𝘼𝙞𝙙") ||
+                (title === "Angel Notes" && "𝘼𝙣𝙜𝙚𝙡 𝙉𝙤𝙩𝙚𝙨")}
             </p>
-
           </p>
           <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
         </motion.div>
